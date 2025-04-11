@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang bán hàng</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://huythanhjewelry.vn/storage/photos/shares/Config/logo.webp" alt="Logo">
+        </div>
+        <nav>
+            <div class="nav-item"><a href="#">Về chúng tôi</a></div>
+
+            <div class="nav-item dropdown">
+                <a href="#">Bộ sưu tập</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Nhẫn cưới</a></li>
+                        <li><a href="#">Dây chuyền</a></li>
+                        <li><a href="#">Vòng tay</a></li>
+                        <li><a href="#">Bông tai</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-item dropdown">
+                <a href="#">Sản phẩm</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Trang sức vàng</a></li>
+                        <li><a href="#">Trang sức bạc</a></li>
+                        <li><a href="#">Kim cương</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-item dropdown">
+                <a href="#">Tin tức</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Xu hướng 2025</a></li>
+                        <li><a href="#">Mẹo chọn trang sức</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-item dropdown">
+                <a href="#">Dịch vụ</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Bảo hành</a></li>
+                        <li><a href="#">Tư vấn chọn quà</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="nav-item"><a href="#">Giá vàng hôm nay</a></div>
+        </nav>
+
+    </header>
+    <div class="slider">
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <div class="slides">
+            <img class="slide" src="https://huythanhjewelry.vn/storage/photos/shares/TKM-T3_2-09.jpg" alt="Slide 1">
+            <img class="slide"
+                src="https://cdn.huythanhjewelry.vn/storage/photos/uploads/huyenlizziepcha-sz_1736748425.jpg"
+                alt="Slide 2">
+            <img class="slide"
+                src="https://cdn.huythanhjewelry.vn/storage/photos/uploads/huyenlizziepc-ha-sz_1736748436.jpg"
+                alt="Slide 3">
+        </div>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+    <div class="products">
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1722651432/ncz037ldia7_1723016646.png.webp"
+                alt="">
+            <h3>Nhẫn cưới kim cương</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1731752863/ndino330ldia-vt-1_1732009337.png.webp"
+                alt="">
+            <h3>Nhẫn vàng trắng</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1731752857/ndino327movt1_1731916680.png.webp"
+                alt="">
+            <h3>Nhẫn đôi thiết kế</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1731752855/ndino326movt1_1731916461.png.webp"
+                alt="">
+            <h3>Nhẫn đính hôn cao cấp</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1731752851/ndino324movt1_1731894075.png.webp"
+                alt="">
+            <h3>Nhẫn vàng hồng</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1722651525/ncz081ldiavh1_1725509885.png.webp"
+                alt="">
+            <h3>Nhẫn đá quý thiên nhiên</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1722651522/ncz080ldiavh1_1725509772.png.webp"
+                alt="">
+            <h3>Nhẫn cưới vàng ta</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1722651504/ncz074ldiavh1_1725507719.png.webp"
+                alt="">
+            <h3>Nhẫn đôi tối giản</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1722651432/ncz037ldia7_1723016646.png.webp"
+                alt="">
+            <h3>Nhẫn đôi tối giản</h3>
+        </div>
+        <div class="product"><img
+                src="https://cdn.huythanhjewelry.vn/storage/rs600/shares/01upload/1731752863/ndino330ldia-vt-1_1732009337.png.webp"
+                alt="">
+            <h3>Nhẫn đôi tối giản</h3>
+        </div>
+    </div>
+
+    <div class="more-info">
+        <h2>Về thương hiệu của chúng tôi</h2>
+        <p>
+            Chúng tôi chuyên cung cấp nhẫn cưới, trang sức chất lượng cao với thiết kế tinh xảo và giá cả hợp lý.
+            Đội ngũ tư vấn nhiệt tình, sản phẩm được kiểm định chất lượng rõ ràng.
+        </p>
+    </div>
+
+    </div>
+</body>
+
+
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.style.display = "none");
+        slides[index].style.display = "block";
+    }
+
+    function changeSlide(n) {
+        slideIndex += n;
+        if (slideIndex < 0) slideIndex = slides.length - 1;
+        if (slideIndex >= slides.length) slideIndex = 0;
+        showSlide(slideIndex);
+    }
+
+    // Hiển thị slide đầu tiên
+    showSlide(slideIndex);
+</script>
+
+</html>
